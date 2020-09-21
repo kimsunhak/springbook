@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController //@RestController는 JSON을 반환하는 컨트롤러로 만들어줌
-public class HelloController {
+public class wHelloController {
 
     @GetMapping("/hello")
     public String hello() {
